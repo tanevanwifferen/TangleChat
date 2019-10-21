@@ -15,6 +15,11 @@ documented though, this is merely a proof of concept.
 - API keys (multiple clients on one host)
 - server-side scripts
 - routing
+- likes
+- comments
+- flags
+- plugin management system
+- address book
 - documentation
 
 # Requirements:
