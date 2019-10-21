@@ -20,7 +20,15 @@ iota.socket.on('message', (msg)=>{
     for(var clientId in clients){
         var cl = clients[clientId];
         if(cl.subscriptions.indexOf(tx.tag) != -1){
-            cl.websocket.send(JSON.stringify([tx]));
+            try{
+                cl.websocket.send(JSON.stringify([tx]));
+            } catch(e){
+                if(JSON.stringify(e).indexOf("WebSocket is not open: readyState 3 (CLOSED)")!= -1){
+                    delete clients[clientId];
+                    continue;
+                }
+                throw e;
+            }
         }
     }
 });
