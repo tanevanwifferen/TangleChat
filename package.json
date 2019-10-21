@@ -1,6 +1,6 @@
 {
   "name": "iotachat",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "a social medium built on top of the IOTA gossip protocol",
   "main": "src/index.js",
   "scripts": {
