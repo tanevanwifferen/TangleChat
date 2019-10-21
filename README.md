@@ -14,6 +14,7 @@ documented though, this is merely a proof of concept.
 - asymmetric encryption (private messaging)
 - API keys (multiple clients on one host)
 - server-side scripts
+- routing
 - documentation
 
 # Requirements:
@@ -29,7 +30,7 @@ documented though, this is merely a proof of concept.
 
 `npm start`
 
-Then visit `http://localhost:5000` in your browser.
+Then visit `http://localhost:5000` in your browser. When changing anything a configuration, it isn't reloaded automatically. Always press save, then reload the page.
 
 # Configuration:
 See app.config.js
