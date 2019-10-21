@@ -15,7 +15,15 @@ documented though, this is merely a proof of concept.
 - API keys (multiple clients on one host)
 - server-side scripts
 - routing
-- documentation
+- likes
+- comments
+- flags
+- images
+- address book
+- multitransaction messages
+- personal feeds
+- conventions/documentation
+- etc, etc, etc
 
 # Requirements:
 - webpack
