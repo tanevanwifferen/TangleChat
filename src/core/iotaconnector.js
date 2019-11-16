@@ -3,7 +3,7 @@ const iota = require("@iota/core");
 console.log(iota);
 const composeAPI = iota.composeAPI;
 const config = require("../../app.config.js");
-const zmq = require("zeromq");
+const zmq = require("zeromq/v5-compat");
 
 const url = config.iota_host;
 const api_port = config.iota_api_port;

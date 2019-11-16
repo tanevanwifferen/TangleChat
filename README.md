@@ -27,7 +27,7 @@ documented though, this is merely a proof of concept.
 
 # Requirements:
 - webpack
-- nodejs
+- nodejs V13+
 - npm
 - an iota node, with RPC and HTTP api exposed
 
