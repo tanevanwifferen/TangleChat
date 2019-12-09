@@ -5,7 +5,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    // watch:true,
+    watch:true,
     entry:{
         client: './public/javascript/main.js',
     },
